@@ -1,0 +1,171 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%;
+}
+
+#noresults {
+    position: absolute;
+    left: 25%;
+    top: 1em;
+    background-color: orange;
+    background-color: rgba(255,160,0,.75);
+    border-radius: .5em;
+    font-size: 1em;
+    padding: .5em;
+    font-family: sans-serif;
+    color: #333;
+}
+
+#search_box {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    bottom: 1em;
+    border-radius: .5em;
+}
+
+#search_container {
+    border-radius: .5em;
+}
+
+#search_container.terms {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#search_container,
+#terms {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: orange;
+    background-color: rgba(255,160,0,.75); 
+}
+
+#terms {
+    background-color: white;
+    background-color: rgba(255,255,255,.75);
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+    font-size: 0.75em;
+    font-family: sans-serif;
+    color: #333;
+}
+
+#terms p {
+    margin-top: .5em;
+}
+
+#terms a {
+    color: #333;
+}
+
+#welcome {
+    position: absolute;
+    top: 1em;
+    left: 20%;
+    background-color: orange;
+    background-color: rgba(255,160,0,.75);
+    border-radius: .5em;
+    padding: .5em;
+    color: #333;
+    font-family: sans-serif;
+    width: 60%;
+    text-align: center;
+}
+
+#welcome p {
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+
+#search {
+    width: 100%;
+    font-size: 2em;
+    height: 1.5em;
+}
+
+#submit {
+    position: absolute;
+    top: 1.5em;
+    right: 6%;
+    background-color: orange;
+    color: white;
+    width: 2em;
+    height: 2em;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: .5em;
+    line-height: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#loading {
+    position: absolute;
+    top: 1.5em;
+    right: 6%;
+}
+
+#welcome p.about {
+    font-size: 0.75em;
+    color: #333;
+    margin-top: 1em;
+}
+
+#about {
+    margin-top: -.5em;
+    font-size: 0.75em;
+    color: #333;
+    /*padding-bottom: .5em;*/
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#welcome a,
+#about a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.info {
+    font-size: 0.75em;
+    font-family: sans-serif;
+}
+
+.pods {
+    max-height: 200px;
+    max-width: 350px;
+    overflow: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.info h2 {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+.info table {
+    font-size: 1em;
+}
+
+.note {
+    margin-top: .5em;
+    color: #333;
+}
+
+.note a {
+    color: #333;
+}
